@@ -198,7 +198,7 @@ def reply_menu3(reply_token):
         ]
       },
       {
-        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
+        "thumbnailImageUrl": "https://cdn.pixabay.com/photo/2019/06/25/04/06/marguerite-4297346__340.jpg",
         "text": "energy",
         "actions": [
           {

@@ -18,8 +18,7 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_channel_access_token = 'FT9zaPscYQJbAQtWq4bHl1iM4Kpx7tHthvQZn4KcCj4eta1Nfq0T+jBpYxGtxPtrRrj3/GD6QLDCQxThjS52itajTMpnvsnJzRwuMj9xivIQIN1fkIEslMimIRNnyXF/heI7MCcCtpCNcbD2Y4EDewdB04t89/1O/w1cDnyilFU='
-line_bot_api = LineBotApi(line_channel_access_token)
+line_channel_access_token = 'oKwIcE8DddDYr8hYl383IavecZqHM8RuTiAxPP7EpTAqRpX0ssJx+U2elIE3YXwkfoo65W0WT0Kp+Li4PaBypJMHONKNQet0ipwAR/XLPaEDCSziD82ZQDugl4g+Np1gzMkuLFLvKs2cObkQqFwfJgdB04t89/1O/w1cDnyilFU='
 handler = WebhookHandler('96363b03e615241b7d68c6ef2ba8dcf2')
 Authorization = "Bearer {}".format(line_channel_access_token)
 
@@ -92,7 +91,7 @@ def reply_menu(reply_token):
                             },
                             {
                                 "type": "action",
-                                "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
+                                "imageUrl": 'https://cdn.pixabay.com/photo/2019/06/25/04/06/marguerite-4297346__340.jpg',
                                 "action": {
                                     "type": "message",
                                     "label": "weather",

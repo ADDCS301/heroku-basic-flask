@@ -83,7 +83,7 @@ def reply_menu(reply_token):
                         "items": [
                             {
                                 "type": "action",
-                                "imageUrl": 'https://cdn.pixabay.com/photo/2019/06/25/07/02/light-bulb-4297600__340.jpg',
+                                "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
                                 "action": {
                                     "type": "message",
                                     "label": "home",

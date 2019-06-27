@@ -77,35 +77,24 @@ def reply_menu(reply_token):
             "replyToken": str(reply_token),
             "messages": [
                 {
-                    "type": "text",
-                    "text": "เชิญเลือกเมนูได้เลยครับ",
-                    "quickReply": {
-                        "items": [
-                            {
-                                "type": "action",
-                                "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
-                                "action": {
-                                    "type": "message",
-                                    "label": "home",
-                                    "text": "Home"
-                                }
-                            },
-                            {
-                                "type": "action",
-                                "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
-                                "action": {
-                                    "type": "message",
-                                    "label": "weather",
-                                    "text": "weather"
-                                }
-                            },
-                            {
-                                "type": "action",
-                                "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
-                                "action": {
-                                    "type": "message",
-                                    "label": "energy",
-                                    "text": "energy"
+                    "thumbnailImageUrl": "https://cdn.pixabay.com/photo/2019/06/25/07/02/light-bulb-4297600__340.jpg",
+        "text": "อธิบายภาพที ่1",
+        "actions": [
+          {
+            "type": "message",
+            "label": "รูปหลอดไฟ",
+            "text": "หลอดไฟ"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn.pixabay.com/photo/2019/06/25/04/06/marguerite-4297346__340.jpg",
+        "text": "อธิบายภาพที ่2",
+        "actions": [
+          {
+            "type": "message",
+            "label": "รูปดอกไม้",
+            "text": "ดอกไม้"
                                 }
                             }
                         ]
@@ -143,24 +132,24 @@ def reply_menu2(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
-        "text": "Energy",
+        "thumbnailImageUrl": "https://cdn.pixabay.com/photo/2019/06/25/07/02/light-bulb-4297600__340.jpg",
+        "text": "อธิบายภาพที ่1",
         "actions": [
           {
             "type": "message",
-            "label": "click",
-            "text": "energy"
+            "label": "รูปหลอดไฟ",
+            "text": "หลอดไฟ"
           }
         ]
       },
       {
-        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
-        "text": "Weather",
+        "thumbnailImageUrl": "https://cdn.pixabay.com/photo/2019/06/25/04/06/marguerite-4297346__340.jpg",
+        "text": "อธิบายภาพที ่2",
         "actions": [
           {
             "type": "message",
-            "label": "click",
-            "text": "weather"
+            "label": "รูปดอกไม้",
+            "text": "ดอกไม้"
           }
         ]
       }

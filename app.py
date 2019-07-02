@@ -49,7 +49,7 @@ def callback():
             print("text: {}".format(text))
             if "home" in text or "Home" in text:
                 print("replying text:{}".format(text))
-                reply_menu3(reply_token)
+                reply_menu2(reply_token)                                               # กระโดดไป เมนู ที่ 2
             elif text == "weather":
                 line_bot_api.reply_message(reply_token, TextSendMessage(text='ตอนนี้อุณหภูมิ ที่บ้าน 30 C '))
             elif text == "energy":

@@ -82,8 +82,7 @@ def reply_menu(reply_token):
                         "items": [
                             {
                                 "type": "action",
-                                "imageUrl": 'https://drive.google.com/uc?export=download&id=1Hsd2w0YF1ThUIQEiXXm-6s67fmV7azh2',
-                                "action": {
+                                "imageUrl": 'https://cdn.pixabay.com/photo/2019/06/25/04/06/marguerite-4297346__340.jpg',
                                     "type": "message",
                                     "label": "home",
                                     "text": "Home"
@@ -142,7 +141,7 @@ def reply_menu2(reply_token):
     "actions": [],
     "columns": [
       {
-        "thumbnailImageUrl": "https://d3n8a8pro7vhmx.cloudfront.net/edonsw/pages/995/attachments/original/1386210667/green_energy_320.jpg",
+        "thumbnailImageUrl": "https://cdn.pixabay.com/photo/2019/06/25/04/06/marguerite-4297346__340.jpg',",
         "text": "Energy",
         "actions": [
           {

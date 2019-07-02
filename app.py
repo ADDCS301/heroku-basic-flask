@@ -43,7 +43,7 @@ def callback():
 
     if event_type == "message":
         message_type = body['events'][0]['message']['type']
-        print("message_type: {}".format(message_type))
+        #print("message_type: {}".format(message_type))
         if message_type == "text":
             text = body['events'][0]['message']['text']
             print("text: {}".format(text))
